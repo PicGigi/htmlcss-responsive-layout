@@ -39,7 +39,7 @@ nav i{
 }
 
 
-/*Section 1*/
+/*Sezione 1*/
 
 .section-1{
     display: flex;
@@ -87,7 +87,12 @@ nav i{
 .blue-box img{
     width: 100%;
 }
-
+.box-img{
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
+    align-items: flex-end;
+}
 .small{
     text-align: center;
 }
@@ -100,6 +105,61 @@ nav i{
     color: #5a6e7f;
     margin-bottom: 2em;
     font-weight: bold;
+}
+
+/*Sezione 2*/
+
+.section-2{
+    background-color: #9792e4;
+    padding: 2em;
+    text-align: center;
+}
+
+.section-2-content{
+    width: 100%;
+    color: white;
+}
+
+.section-2-img{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.section-2-img img{
+    width: 100%;
+    margin: 5em auto;
+}
+.section-2-content h1{
+    margin-bottom: 2em;
+}
+.section-2-img-2{
+    background-color: white;
+    color: black;
+    padding: 2em;
+    border-radius: 50px;
+    width: 100%;
+    margin: 5em auto;
+    text-align: center;
+}
+.section-2-img-2 img{
+    width: 100%;
+    margin: 0 auto 2em auto;
+}
+.btn-2{
+    color: white;
+    width: 3em;
+    height: 3em;
+    text-decoration: none;
+    background-color: #9792e4;
+    border-radius: 50%;
+    margin: 2em auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btn-2 i{
+    color: black;
 }
 
 /*TABLET*/
@@ -135,11 +195,14 @@ nav i{
     .large{
         flex-direction: row;
     }
-    .large .box-text{
+    .box-text{
         flex: 1 1 50%;
     }
-    .large img{
+    .box-img{
+        display: flex;
         flex: 1 1 50%;
+        margin-bottom: 0;
+        align-items: flex-end;
     }
 }
 
