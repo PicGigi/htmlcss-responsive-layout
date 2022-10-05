@@ -162,6 +162,48 @@ nav i{
     color: black;
 }
 
+.section-3-content{
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+.section-3-content h1{
+    margin: 2em auto;
+    color: #9792e4;
+    font-size: 2em;
+}
+
+.section-3-card{
+    padding: 1em;
+    margin: 3em auto;
+    background-color: #9792e4;
+    border-radius: 3em;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img{
+    background-image: url('img/testimonial1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 2em;
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
+
+.card-name{
+    display: block;
+    white-space: nowrap;
+    font-weight: bold;
+    margin: 2em auto;
+}
 /*TABLET*/
 
 @media screen and (min-width:600px){
